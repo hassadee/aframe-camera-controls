@@ -20,7 +20,7 @@ AFRAME.registerComponent( 'cameracontrols', {
     truckSpeed: {default: 2},
 
     target: {type: 'selector'},
-    initialPosition: {type: 'vec3', default: '0 0 0'}
+    initialPosition: {type: 'vec3', default: {x: 0, y: 0, z: 0'}}
   },
 
   init: function () {
